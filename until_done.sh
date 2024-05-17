@@ -3,6 +3,9 @@
 # 在脚本报错后尝试
 # 如果成功再退出，失败最多10次后也退出
 
+RETRY_TIMES=100
+A=$RETRY_TIMES
+
 while true
 do
 	$@;
