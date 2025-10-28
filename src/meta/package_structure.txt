@@ -1,0 +1,25 @@
+tools
+├── LICENSE
+├── README.md
+├── scripts
+│   ├── build.sh
+│   └── proxy.sh
+├── setup.py
+└── src
+    ├── meta
+    │   ├── changelog.md
+    │   └── package_structure.txt
+    ├── tests
+    │   ├── test_human_readable_size.py
+    │   ├── test_human_readable_time.py
+    │   └── test_human_util.py
+    └── tools
+        ├── __init__.py
+        ├── __main__.py
+        ├── cli.py
+        └── format
+            ├── size.py
+            ├── time.py
+            └── util.py
+
+7 directories, 16 files
